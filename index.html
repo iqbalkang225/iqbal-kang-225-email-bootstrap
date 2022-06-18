@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="email">
+      <div class="container bg-warning col-9 col-md-12">
+        <!-- Top part Mobile -->
+        <div class="row top d-sm-none">
+          <div class="col">
+            <div
+              class="top-container bg-danger d-flex justify-content-between py-4 px-2 rounded-top shadow"
+            >
+              <div class="profile-container text-white">
+                <div class="profile-dp mb-3">
+                  <img src="./images/dp.jpg" alt="User display picture" />
+                </div>
+                <h2 class="profile-inbox fw-bold mb-0">Inbox</h2>
+                <p class="profile-info mb-0">
+                  12 unread &bull; iqbal.kang.cohort225@gmail.com
+                </p>
+              </div>
+              <span class="profile-icon text-white"
+                ><i class="fa-brands fa-yahoo"></i
+              ></span>
+              <span class="profile-icon text-white"
+                ><i class="fa-solid fa-pencil"></i
+              ></span>
+              <span class="profile-icon text-white"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+        <!-- Middle part -->
+        <div class="row middle">
+          <!-- Left sidebar -->
+          <div class="d-none d-sm-flex col-2 col-md-1">
+            <div
+              class="bg-white p-2 d-flex flex-column align-items-center justify-content-between"
+            >
+              <div class="profile-dp">
+                <img src="./images/dp.jpg" alt="User display picture" />
+              </div>
+              <div
+                class="sidebar-middle-icons d-flex flex-column align-items-center"
+              >
+                <a href="#" class="sidebar-icon mb-3"
+                  ><i class="fa-solid fa-inbox text-primary"></i
+                ></a>
+                <a href="#" class="sidebar-icon mb-3"
+                  ><i class="fa-solid fa-play"></i
+                ></a>
+                <a href="#" class="sidebar-icon mb-3"
+                  ><i class="fa-solid fa-paperclip"></i>
+                </a>
+                <a href="#" class="sidebar-icon"
+                  ><i class="fa-solid fa-trash"></i
+                ></a>
+              </div>
+              <a href="#" class="sidebar-icon"
+                ><i class="fa-solid fa-plus"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Middle Messages -->
+          <div class="col-sm-10 col-md-5 col-lg-4 col-xl-3">
+            <!-- Message 1 -->
+            <div class="row message-row">
+              <div class="col">
+                <div
+                  class="message bg-white mb-2 py-3 px-2 shadow rounded-bottom d-flex align-items-center"
+                >
+                  <div class="message-dp">
+                    <img src="./images/expedia.png" alt="Expedia logo" />
+                  </div>
+                  <div class="message-info ms-3">
+                    <div
+                      class="message-title-container d-flex justify-content-between"
+                    >
+                      <h3 class="message-title mb-0">Expedia</h3>
+                      <span class="message-time mt-1">9h</span>
+                    </div>
+                    <div class="message-description-container d-flex">
+                      <div class="message-description">
+                        <p class="message-subject mb-0">
+                          About your Aug 16 - Aug 18 trip -- Here's another...
+                        </p>
+                        <p class="message-text text-black-50 mb-0">
+                          Find your next flight, hotel,car, activities, and
+                          more...
+                        </p>
+                      </div>
+                      <div class="star-icon ms-2">
+                        <span><i class="fa-solid fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Message 2 -->
+            <div class="row message-row">
+              <div class="col">
+                <div
+                  class="message bg-white mb-2 py-3 px-2 shadow rounded-3 d-flex align-items-center"
+                >
+                  <div class="message-dp">
+                    <img src="./images/google.png" alt="Expedia logo" />
+                  </div>
+                  <div class="message-info ms-3">
+                    <div
+                      class="message-title-container d-flex justify-content-between"
+                    >
+                      <h3 class="message-title mb-0">Expedia</h3>
+                      <span class="message-time mt-1">9h</span>
+                    </div>
+                    <div class="message-description-container d-flex">
+                      <div class="message-description">
+                        <p class="message-subject mb-0">
+                          About your Aug 16 - Aug 18 trip -- Here's another...
+                        </p>
+                        <p class="message-text text-black-50 mb-0">
+                          Find your next flight, hotel,car, activities, and
+                          more...
+                        </p>
+                      </div>
+                      <div class="star-icon ms-2">
+                        <span><i class="fa-solid fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Message 3 -->
+            <div class="row message-row">
+              <div class="col">
+                <div
+                  class="message bg-primary mb-2 py-3 px-2 shadow rounded-3 d-flex align-items-center"
+                >
+                  <div class="message-dp">
+                    <img src="./images/user.jpg" alt="john picture" />
+                  </div>
+                  <div class="message-info ms-3">
+                    <div
+                      class="message-title-container d-flex justify-content-between"
+                    >
+                      <h3 class="message-title mb-0">Expedia</h3>
+                      <span class="message-time mt-1">9h</span>
+                    </div>
+                    <div class="message-description-container d-flex">
+                      <div class="message-description">
+                        <p class="message-subject mb-0">
+                          About your Aug 16 - Aug 18 trip -- Here's another...
+                        </p>
+                        <p class="message-text text-black-50 mb-0">
+                          Find your next flight, hotel,car, activities, and
+                          more...
+                        </p>
+                      </div>
+                      <div class="star-icon ms-2">
+                        <span><i class="fa-solid fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Message 4 -->
+            <div class="row message-row">
+              <div class="col">
+                <div
+                  class="message bg-white mb-2 py-3 px-2 shadow rounded-3 d-flex align-items-center"
+                >
+                  <div class="message-dp">
+                    <img src="./images/expedia.png" alt="Expedia logo" />
+                  </div>
+                  <div class="message-info ms-3">
+                    <div
+                      class="message-title-container d-flex justify-content-between"
+                    >
+                      <h3 class="message-title mb-0">Expedia</h3>
+                      <span class="message-time mt-1">9h</span>
+                    </div>
+                    <div class="message-description-container d-flex">
+                      <div class="message-description">
+                        <p class="message-subject mb-0">
+                          About your Aug 16 - Aug 18 trip -- Here's another...
+                        </p>
+                        <p class="message-text text-black-50 mb-0">
+                          Find your next flight, hotel,car, activities, and
+                          more...
+                        </p>
+                      </div>
+                      <div class="star-icon ms-2">
+                        <span
+                          ><i class="fa-solid fa-star text-warning"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Message Info -->
+          <div
+            class="d-none d-md-block col-md-6 col-lg-6 col-xl-5 bg-white rounded-3 conversation-font py-4 ps-lg-4 shadow-sm align-self-start"
+          >
+            <div class="row">
+              <div class="col-lg-2 d-none d-md-flex justify-content-center">
+                <img
+                  src="./images/user.jpg"
+                  alt="john picture"
+                  class="d-none d-lg-block john"
+                  style="width: 40px; height: 40px"
+                />
+              </div>
+              <div class="col-lg-10">
+                <div
+                  class="conversation-title-box d-flex align-items-center justify-content-between"
+                >
+                  <div class="conversation-title">
+                    <h3 class="h5 mb-0">Genentech</h3>
+                    <p class="text-black-50">genentechnologies@google.com</p>
+                  </div>
+                  <p class="conversation-date d-none d-lg-block">
+                    11:11 AM, June 17 2022
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-2">
+                <div
+                  class="conversation-icons d-none d-lg-flex flex-column align-items-center"
+                >
+                  <a href="#" class="conversation-icon mb-2">
+                    <span class="sidebar-icon"
+                      ><i class="fa-solid fa-reply me-1"></i></span
+                  ></a>
+
+                  <a href="#" class="conversation-icon mb-2">
+                    <span class="sidebar-icon mb-2"
+                      ><i class="fa-solid fa-star"></i
+                    ></span>
+                  </a>
+                  <a href="#" class="conversation-icon mb-2">
+                    <span class="sidebar-icon mb-2"
+                      ><i class="fa-solid fa-paperclip"></i> </span
+                  ></a>
+                  <a href="#" class="conversation-icon mb-2">
+                    <span class="sidebar-icon"
+                      ><i class="fa-solid fa-trash"></i></span
+                  ></a>
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="conversation-message">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde consequatur laudantium est, reprehenderit ea commodi
+                    optio soluta dolore nesciunt quas! Quibusdam consectetur
+                    saepe qui Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Voluptatibus et consequuntur dolorum numquam cum sunt,
+                    asperiores nulla consectetur officia enim.
+                  </p>
+                  <div
+                    class="dropbox-icon h1 text-primary mt-0 d-inline-flex flex-column align-items-center"
+                  >
+                    <i class="fa-brands fa-dropbox"></i>
+                    <a href="#" class="dropbox-text text-black-50">Download</a>
+                  </div>
+                  <div class="action-icons mt-2 d-flex justify-content-center">
+                    <a href="#" class="action-icon text-danger me-2">
+                      <i class="fa-solid fa-reply me-1"></i> Reply
+                    </a>
+                    <a href="#" class="action-icon text-danger">
+                      <i class="fa-solid fa-share me-1"></i> Forward
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Contact info -->
+          <div class="d-none d-xl-block col-xl-3">
+            <div
+              class="contact-info p-3 py-5 bg-white d-flex flex-column align-items-center shadow rounded-3"
+            >
+              <img src="./images/user.jpg" alt="user picture" />
+              <h2 class="h6 mb-0">John Doe</h2>
+              <p class="text-black-50">Web Developer</p>
+              <div class="user-social mb-3">
+                <a href="#" class="ms-2">Twitter</a>
+                <a href="#" class="ms-2">Facebook</a>
+                <a href="#" class="ms-2">LinkedIn</a>
+              </div>
+              <p class="text-black-50 mb-0 fw-bold">Genentech</p>
+              <p class="text-black-50 user-email mb-1">
+                genentechnologies@google.com
+              </p>
+              <p class="user-phone text-black-50">(314) 342- 92247</p>
+              <a href="#" class="btn btn-view"> View Conversation</a>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Part -->
+        <div class="row d-sm-none">
+          <div class="col bottom">
+            <div class="cont d-flex justify-content-between bg-white p-2">
+              <span class="bottom-icon d-flex flex-column align-items-center"
+                ><i class="fa-solid fa-inbox"></i> Inbox</span
+              >
+              <span class="bottom-icon d-flex flex-column align-items-center"
+                ><i class="fa-solid fa-play"></i> Videos</span
+              >
+              <span class="bottom-icon d-flex flex-column align-items-center"
+                ><i class="fa-solid fa-paperclip"></i> Attachments</span
+              >
+              <span class="bottom-icon d-flex flex-column align-items-center"
+                ><i class="fa-solid fa-bag-shopping"></i> Shopping</span
+              >
+              <span class="bottom-icon d-flex flex-column align-items-center"
+                ><i class="fa-solid fa-ellipsis-vertical"></i> More</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
